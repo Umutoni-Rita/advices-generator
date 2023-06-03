@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600&family=Rubik+Puddles&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Maven Pro', sans-serif;
+  background-color: #3e3e3e;
+}
+.logo{
+  font-family: 'Rubik Puddles', cursive;
+  font-size: 40px;
+  color: white;
+  padding: 10px;
+}
+.logo span{
+  font-size: 20px;
+  color: #61dafb;
+}
+
+.quote {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.author{
+  font-weight: 800;
+}
+
+.quote-btn {
+  background-color: #61dafb;
+  padding: 1.5%;
+  border: none;
+  border-radius: 40px;
+  font-family: 'Maven Pro', sans-serif;
+  color: white;
+  font-weight: 700;
+  margin: 20px;
+  cursor: pointer;
+}
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background: #546569;
+  width: 8px;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track-piece{
+  background-color:#ddf9ff;
+}
+
+
+
+
