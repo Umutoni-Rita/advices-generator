@@ -3,13 +3,13 @@ import Advice from "./Advice";
 import axios from "axios";
 
 export default function Process() {
-  const [quote, setQuote] = useState({});
+  const [advice, setAdvice] = useState({});
 
   const generateAdvice = useCallback(() => {
     axios
       .get("https://api.adviceslip.com/advice")
       .then((res) => {
-        setQuote(res.data);
+        setAdvice(res.data);
       })
       .catch((err) => console.log(err));
   }, []);
@@ -20,7 +20,8 @@ export default function Process() {
 
   return (
     <div>
-      {quote.slip && quote.slip.advice && <Advice content={quote.slip.advice} generateAdvice={generateAdvice}/>}
+      {advice.slip && advice.slip.advice && <Advice content={advice.slip.advice} generateAdvice={generateAdvice}/>}
     </div>
   );
 }
+

@@ -1,12 +1,13 @@
 
 import './App.css';
-import Process from './components/AdviceProcess';
+import QuoteProcess from './components/QuoteProcess';
 // import Quote from './components/Quote';
 
 function App() {
   return (
     <div className="App">
-      <Process/>
+      <QuoteProcess/>
+
     </div>
   );
 }

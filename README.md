@@ -1,4 +1,4 @@
-# Random Advice and Quotes Generator
+# [Random Advice and Quotes Generator](https://quotes-advices-generator.vercel.app/)
 
 Welcome to the Random Advice and Quotes Generator! This small web application fetches random advice and quotes from an API and displays them for your inspiration and enjoyment.
 
@@ -37,4 +37,3 @@ Contributions are welcome! If you have any ideas, suggestions, or bug reports, p
 This project is licensed under the MIT License. Feel free to use and modify the code as per the terms of the license.
 
 Enjoy the random advice and quotes! Feel free to [reach](umurita37@gmail.com) out with any questions or feedback.
-
